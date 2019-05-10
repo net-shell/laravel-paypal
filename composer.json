@@ -23,5 +23,15 @@
             "Netshell\\Paypal": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Netshell\\Paypal\\PaypalServiceProvider"
+            ],
+            "aliases": {
+                "Paypal": "Netshell\\Paypal\\Facades\\Paypal"
+            }
+        }
+    }
 }
