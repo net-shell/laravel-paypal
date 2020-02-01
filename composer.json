@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
           "providers": [
-            "Jhonaikerf\\Paypal\\PaypalServiceProvider"
+            "Netshell\\Paypal\\PaypalServiceProvider"
           ],
           "aliases": {
-            "Excel": "Jhonaikerf\\Paypal\\Facades\\Paypal"
+            "Excel": "Netshell\\Paypal\\Facades\\Paypal"
           }
         }
       },
