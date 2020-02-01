@@ -18,10 +18,20 @@
     "require-dev":{
         "phpspec/phpspec": "~2.0"
     },
-    "autoload": {
-        "psr-0": {
-            "Netshell\\Paypal": "src/"
+   "autoload": {
+        "psr-4": {
+            "Jhonaikerf\\Paypal": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Jhonaikerf\\Paypal\\PaypalServiceProvider"
+          ],
+          "aliases": {
+            "Excel": "Jhonaikerf\\Paypal\\Facades\\Paypal"
+          }
+        }
+      },
     "minimum-stability": "dev"
 }
