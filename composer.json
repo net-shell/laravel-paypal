@@ -10,10 +10,15 @@
     ],
     "require": {
         "php": "^5.4.0|^7.0",
-        "paypal/rest-api-sdk-php": "1.13.0",
-        "mehedi-iitdu/paypal":"dev-master"
+        "illuminate/support": "5.*",
+        "guzzlehttp/guzzle": "5.*|6.*",
+        "paypal/rest-api-sdk-php": "1.13.0"
     },
     "require-dev":{
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "satooshi/php-coveralls": "^0.7.0",
+        "mockery/mockery": ">=0.7.2",
         "phpspec/phpspec": "~2.0"
     },
     "autoload": {
