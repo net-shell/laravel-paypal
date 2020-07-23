@@ -13,8 +13,7 @@
         "illuminate/support": "5.*",
         "ext-curl": "*",
         "ext-json": "*",
-        "paypal/rest-api-sdk-php": "1.13.0",
-        "mehedi-iitdu/laravel-paypal":"dev-master"
+        "paypal/rest-api-sdk-php": "1.13.0"
     },
     "require-dev":{
         "phpspec/phpspec": "~2.0"
