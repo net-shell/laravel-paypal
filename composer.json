@@ -10,6 +10,7 @@
     ],
     "require": {
         "php": "^5.4.0|^7.0",
+        "illuminate/support": "6.8.0",
         "guzzlehttp/guzzle": "^6.5",
         "paypal/rest-api-sdk-php": "1.13.0"
     },
