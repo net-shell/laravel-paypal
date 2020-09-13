@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Netshell\\Paypal": "src/"
+            "Netshell\\Paypal\\": "src/"
         }
     },
     "minimum-stability": "dev"
